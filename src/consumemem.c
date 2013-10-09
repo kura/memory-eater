@@ -15,7 +15,7 @@ int main(int argc, char *argv[]) {
             break;
         }
 
-        /* consume our allocated 10MB */
+        /* consume our allocated memory */
         memset(b, 1, CONSUME);
         printf("%d iterations\n", ++c);
     }
